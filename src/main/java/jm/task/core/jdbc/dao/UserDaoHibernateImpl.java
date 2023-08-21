@@ -14,7 +14,7 @@ public class UserDaoHibernateImpl implements UserDao {
     public UserDaoHibernateImpl() {
     }
 
-    // Создание таблицы для User(ов) – не должно приводить к исключению, если такая таблица уже существует
+    // Создание таблицы для User(ов) – не должно приводить к исключению, если такая таблица уже существует1
     @Override
     public void createUsersTable() {
         Transaction transaction = null;
