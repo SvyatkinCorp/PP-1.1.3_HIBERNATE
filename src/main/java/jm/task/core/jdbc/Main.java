@@ -6,7 +6,7 @@ public class Main {
     private static final UserService userService = new UserServiceImpl();
 
     public static void main(String[] args) {
-//         реализуйте алгоритм здесь1
+//         реализуйте алгоритм здесь
         userService.createUsersTable();
         userService.saveUser("Сергей", "Батькович", (byte) 25);
         userService.saveUser("Алексей", "Биушкин", (byte) 45);

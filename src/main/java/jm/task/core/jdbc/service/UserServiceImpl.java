@@ -6,7 +6,7 @@ import jm.task.core.jdbc.model.User;
 
 import java.util.List;
 
-// service переиспользует методы dao1
+// service переиспользует методы dao
 public class UserServiceImpl implements UserService {
 
     UserDao userDao = new UserDaoHibernateImpl();

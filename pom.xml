@@ -21,8 +21,6 @@
     </build>
 
     <dependencies>
-<!--         Ваши зависимости-->
-         <!-- https://mvnrepository.com/artifact/ju nit/junit -->
          <dependency>
              <groupId>junit</groupId>
              <artifactId>junit</artifactId>
